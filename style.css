@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+header{
+    background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.945)), url(netflix.jpg);
+    height: 106vh;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+.liftlogo img{
+    height: 40px;
+    float: left;
+    margin-top: 3vh;
+    margin-left: 23vh;
+    width: 50%;
+}
+.rightlogo{
+    display: flex;
+    width: 50%;
+    margin-top: 3.5vh ;
+}
+.rightlogo select{
+    height: 30px;
+    width: 20vh;
+    margin-left: 40%;
+    background-color: rgba(32, 31, 31, 0.466);
+    font-size: 2.5vh;
+    font-weight: lighter;
+    border-radius: 8%;
+    border: white;
+}
+
+.rightlogo select option{
+    background-color: white;
+}
+
+.rightlogo button{
+    background-color: rgb(226, 4, 4);
+    height: 30px;
+    width: 12vh;
+    margin-left: 4vh;
+    border-radius: 8%;
+    border: none;
+    font-weight: bold;
+    font-size: 2.1vh;
+    cursor: pointer;
+}
+.rightlogo button:hover{
+    background-color: rgb(199, 12, 12);
+    transition: 0.5ms;
+}
+.title{
+    height: 60%;
+    width: 100%;
+    font-family: Arial;
+}
+.title h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 6.5vh;
+    font-weight: 5vh;
+    font-weight: 800;
+}
+.title p{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 3.1vh;
+    margin-top: 4.5vh;
+}
+.btn{
+    display: flex;
+}
+
+.title input{
+    background-color: rgba(36, 34, 34, 0.493);
+    border: 0.3vh solid rgb(82, 82, 82);
+    height: 8vh;
+    margin-left: 27%;
+    margin-top: 3.5vh;
+    width: 60vh;
+    border-radius: 2%;
+}
+.title button{
+    margin-top: 3.5vh;
+    margin-left: 1vh;
+    height: 8vh;
+    width: 34vh;
+    border-radius: 3%;
+    border: none;
+    background-color: rgb(207, 20, 20);
+    font-size: 4vh;
+    cursor: pointer;
+}
+.title button:hover{
+    background-color: rgb(187, 31, 31);
+}
+hr{
+    border: black;
+    height: 1.5vh;
+    background-color: rgb(26, 25, 25);
+}
+.f1{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.f1right{
+    padding-left: 25vh;
+    padding-top: 25vh;
+    width: 85vh;
+}
+.f1right h1{
+    font-size: 6.5vh;
+    font-weight: 800;
+}
+.f1right p{
+    padding-top: 2vh;
+    font-size: 3.8vh;
+    font-weight: 200;
+}
+.f1lift{
+    padding-left: 5vh;
+    padding-top: 10vh;
+}
+.f2{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.f2lift h1{
+    padding-top: 20vh ;
+    font-size: 6.5vh;
+    font-weight: 800;
+    padding-right: 30vh;
+    padding-left: 10vh;
+}
+.f2lift p{
+    padding-top: 2vh;
+    font-size: 3.8vh;
+    font-weight: 200;
+    padding-right: 30vh;
+    padding-left: 10vh;
+}
+.f2right{
+    padding-left: 25vh;
+    padding-top: 15vh;
+    padding-right: 10vh;
+}
+.f3{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.f3right h1{
+    padding-top: 28vh ;
+    font-size: 6.5vh;
+    font-weight: 800;
+    padding-left: 30vh;
+}
+.f3right p{
+    padding-top: 2vh;
+    font-size: 3.8vh;
+    font-weight: 200;
+    padding-left: 30vh;
+}
+.f3lift{
+    padding-right: 25vh;
+    padding-top: 15vh;
+}
+.f4{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.f4lift h1{
+    padding-top: 25vh ;
+    font-size: 6.5vh;
+    font-weight: 800;
+    padding-left: 10vh;
+    padding-right: 20vh;
+}
+.f4lift p{
+    padding-top: 2vh;
+    font-size: 3.8vh;
+    font-weight: 200;
+    padding-left:10vh;
+    padding-right: 20vh;
+}
+.f4right{
+    padding-left: 25vh;
+    padding-top: 10vh;
+    padding-right: 10vh;
+    width: 130vh;
+}
+.f5{
+    height: auto;
+    background-color: black;
+}
+.f5 h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 6.5vh;
+    font-weight: 900;
+    padding-top: 8vh;
+}
+.f5 p{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 3.1vh;
+    margin-top: 4.5vh;
+}
+.f5 input{
+    background-color: rgba(36, 34, 34, 0.493);
+    border: 0.3vh solid rgb(82, 82, 82);
+    height: 8vh;
+    margin-left: 28%;
+    margin-top: 3.5vh;
+    width: 57vh;
+    border-radius: 2%;
+}
+.f5 button{
+    margin-top: 3.5vh;
+    margin-left: 1vh;
+    height: 8vh;
+    width: 30vh;
+    border-radius: 3%;
+    border: none;
+    background-color: rgb(207, 20, 20);
+    font-size: 4vh;
+    cursor: pointer;
+    margin-bottom: 15vh;
+}
+.f5 button:hover{
+    background-color: rgb(187, 31, 31);
+}
+footer{
+    height: 60vh;
+    background-color: black;
+    padding-top: 10vh;
+    padding-left: 25vh;
+    padding-right: 60vh;
+    font-family: Arial;
+    color: rgb(201, 197, 197);
+    font-weight: lighter;
+    font-size: 2.6Vh;
+}
+footer span{
+    color: rgb(201, 197, 197);
+    text-decoration: underline rgb(255, 251, 243);
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last h4{
+    margin-top: 4vh;
+    font-size: 2.2vh;
+    font-weight: lighter;
+}
+.last h4 p{
+    font-family: Arial;
+    color: rgb(201, 197, 197);
+    margin-top: 3vh;
+    cursor: pointer;
+    text-decoration: underline rgb(255, 251, 243);
+}
+footer select {
+    height: 30px;
+    width: 20vh;
+    margin-top: 5vh;
+    background-color: rgba(32, 31, 31, 0.466);
+    font-size: 2.5vh;
+    font-weight: lighter;
+    border-radius: 5%;
+    border: 1px rgb(146, 146, 146) solid;
+}
+footer select option{
+    background-color: whitesmoke;
+}
+footer p{
+    margin-top: 5vh;
+    font-size: 2.3vh;
+    color: rgb(201, 197, 197);
+}
