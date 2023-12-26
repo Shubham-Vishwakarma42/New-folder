@@ -4,7 +4,7 @@
     color: white;
 }
 header{
-    background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.945)), url(netflix.jpg);
+    background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.945)), url(netflix.jpg);
     height: 106vh;
 }
 .logo{
@@ -21,8 +21,13 @@ header{
 }
 .rightlogo{
     display: flex;
-    width: 50%;
+    
     margin-top: 3.5vh ;
+}
+.len{
+    display: flex;
+    width: 50%;
+    
 }
 .rightlogo select{
     height: 30px;
